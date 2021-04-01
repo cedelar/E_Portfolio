@@ -1,0 +1,22 @@
+{
+  "name": "e_portfolio",
+  "version": "1.0.0",
+  "description": "E_Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedelar/E_Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedelar/E_Portfolio/issues"
+  },
+  "homepage": "https://github.com/cedelar/E_Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
