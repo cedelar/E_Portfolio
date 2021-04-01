@@ -1,0 +1,84 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-color: #121212;
+  }
+  
+  .sidenav {
+    text-align: center;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: #e7e7e7
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#e7e7e7;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #818181;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 24px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    color: #e7e7e7;
+  }
+
+  .link {
+    color: lightblue;
+  }
+
+
+  h3{
+    width: 100%;
+    border: 1px,#e7e7e7;
+    border-style: none none solid none;
+  }
+  p{
+    padding-left: 20px;
+  }
+
+  .indent{
+    padding-left: 40px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    height: 100%
+  }
+
+  .column {
+    float: left;
+    width: 35%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .foto{
+    padding-top: 10px;
+    height: 160px;
+  }
+
+  .indentlink{
+    padding-left: 40px;
+    color: lightblue;
+  }
